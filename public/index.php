@@ -9,6 +9,13 @@ $database = new Medoo([
 	'database_file' => '../storage/database.db'
 ]);
 
+#$comment = new SitePoint\Comment($database);
+#$comment->setEmail('bruno@skvorc.me')
+#    ->setName('Bruno Skvorc')
+#    ->setComment('It works!')
+#    ->setComment('Hooray! Saving comments works!')
+#    ->save();
+#dump($database->error());
 ?>
 
 <!doctype html>
